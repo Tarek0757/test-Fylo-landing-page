@@ -1,0 +1,900 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+
+
+  background-color:    #f9f9f9    ;
+  overflow: hidden;
+  
+
+}
+
+header{
+
+
+
+right: 0;
+left: 0;
+top: 0;
+
+
+}
+
+header nav{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 85%;
+height: 80px;
+margin: auto;
+
+}
+
+header nav .links{
+
+display: flex;
+
+
+}
+
+header nav .links li{
+
+margin:  0    25px;
+line-height: 80px;
+list-style: none;
+
+
+}
+
+header nav .links li a{
+
+text-decoration: none;
+font-size: 16px;
+color: hsl(0, 0%, 80%);
+
+}
+
+
+header   nav .logo  img{            
+
+    width: 100px;
+    
+
+}
+
+header nav .logo {
+
+
+    margin-top: 10px;
+    
+}
+
+/* قسم الـ Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #f9f9f9; /* لو الخلفية بيضة */
+    margin-top: 20px;
+  }
+
+  .hero .container{
+
+display: flex;
+align-items: center;
+
+  }
+  
+  .hero-text {
+    width: auto;
+  }
+  
+  .hero-text h1 {
+    font-size: 32px;
+    color: #1c2237;
+    margin-bottom: 20px;
+    margin-left: 45px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    color: #7a7a7a;
+    margin-bottom: 40px;
+    margin-left: 45px;
+  }
+  
+  .cta-btn {
+    background-color:  hsl(238, 22%, 44%);
+    
+    color: #ffffff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .hero-img{
+
+
+width:70%;
+height: auto;
+
+
+
+  }
+  
+  .hero-img img {
+    max-width: 80%;
+    height: auto;
+    
+  }
+
+   .tube{
+
+
+height: 30px;
+width: 250px;
+margin-left: 45px;
+box-shadow: #ffffff;
+
+  }
+
+  input {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف تحت */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input::placeholder {
+    color: rgba(0, 0, 0, 0.3); /* شفافية 50% */
+  }
+  
+  
+
+
+/*  start section main*/
+
+
+.hero2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  background-color: ; /* خلفية لو عايز تخليها بيضاء */
+  margin-top: 20px;
+  background: url(./images/bg-curve-desktop.svg);
+  
+  background-position: top;
+}
+
+.hero2 .container2 {
+  display: flex;
+  align-items: center;
+  height: auto;
+  
+  width: 100%; /* خليه ياخد عرض الصفحة بالكامل */
+}
+
+.text2 {
+  flex: 1;
+  margin-bottom: 100px;
+  padding-right: 20px; /* لو عايز تزود مسافة بين النص والصورة */
+}
+
+.text2 h1 {
+  font-size: 32px;
+  color: #1c2237;
+  margin-bottom: 20px;
+  margin-left: 45px;
+}
+
+.text2 p {
+  font-size: 16px;
+  color:black;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  width: 400px;
+  height:auto ;
+}
+
+.text2 a{
+  margin-left: 45px;
+  
+  color:   hsl(170, 45%, 43%);
+  text-decoration: none;
+  border-bottom: 1px solid      hsl(170, 45%, 43%)     ;
+  padding-bottom: 5px;
+}
+
+.photo {
+
+  width: 100%;
+  height:auto ;
+  
+}
+
+.photo img {
+  max-width: 70%; /* الصورة تاخد عرض الـdiv بالكامل */
+  height: auto;
+  position: relative;
+  bottom: 30px;
+  left: 100px;
+  
+}
+
+.text2 img{
+
+position: relative;
+top: 7px;
+left: 2px;
+
+}
+
+.box{
+
+  border: 1px  solid  ;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+  border-radius: 5px;
+  transition: 0.2s;
+   width: 270px;
+height: 190px;
+margin-top: 40px;
+margin-left: 40px;
+background-color: white;
+border: 1px  solid white;
+
+
+}
+.box p{
+
+width: 200px;
+font-size: 16px;
+
+color: black;
+padding-top: 30px;
+padding-right: 20px;
+
+
+}
+.box .box-img img{
+
+width: 30px;
+height: 30px;
+position: relative;
+left: 50px;
+top: 5px;
+border-radius: 50%;
+
+}
+
+.box .box-img  h3{
+
+font-size: 16px;
+
+padding-left: 90px;
+position: relative;
+bottom: 30px;
+}
+
+.box .box-img .p2 {
+
+font-size: 10px;
+padding-left: 70px;
+padding-top: 4px;
+position: relative;
+bottom: 30px;
+right: 25px;
+
+}
+
+.form{
+
+width: 100%;
+height: 250px;
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+background-color:      hsl(238, 22%, 44%)
+;
+
+}
+
+
+.form .text-form{
+
+
+width: 50%;
+
+
+}
+
+.form .text-form h3{
+
+font-size: 22px;
+padding-bottom: 15px;
+padding-left: 40px;
+color: white;
+font-weight: bold;
+
+}
+
+.form .text-form p{
+
+
+width: 460px;
+
+
+
+padding-left: 40px;
+font-weight: 100;
+
+color: rgba(255, 255, 255, 0.7); /* الأبيض بنسبة شفافية 50% */
+
+
+
+}
+
+
+
+.form .input-form input{
+
+
+justify-content: center;
+
+padding-right: 150px;
+}
+
+.form .input-form button{
+
+position: relative;
+top:50px;
+right: 335px;
+
+background-color:     hsl(224, 93%, 58%)        ;
+color: white;
+font-size: 10px;
+padding: 10px;
+width: 140px;
+border-radius: 5px;
+border:  1px solid blue;
+
+}
+
+
+
+.all-content{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 300px;
+
+
+background-color:   hsl(243, 87%, 12%)
+;
+
+
+}
+
+.all-content .logo-contact {
+
+width: 25%;
+padding-left: 50px;
+color: white;
+
+}
+
+.all-content .logo-contact img{
+
+
+width: 130px;
+padding-bottom: 15px;
+color: white;
+
+}
+
+.all-content .logo-contact .phone{
+
+
+padding-bottom: 10px;
+color: white;
+
+
+}
+.all-content .logo-contact .ex{
+
+  color: white;
+}
+
+.all-content .text4{
+
+padding-right: 50px;
+width: auto;
+color: white;
+
+}
+
+.all-content .text3{
+
+padding-right: 150px;
+width: auto;
+color: white;
+
+}
+
+
+.all-content  .text4 .about{
+
+padding-bottom: 10px;
+
+
+}
+.all-content .text4 .jobs{
+
+padding-bottom: 10px;
+
+}
+.all-content .text4 .press{
+
+padding-bottom: 10px;
+
+}
+.all-content .text4 .blog{
+
+padding-bottom: 10px;
+
+}
+
+
+
+
+.all-content .text3 .contact{
+
+  padding-bottom: 10px;
+  
+  }
+  .all-content .text3 .terms{
+  
+  padding-bottom: 10px;
+  
+  }
+  .all-content .text3 .priv{
+  
+  padding-bottom: 10px;
+  
+  }
+
+
+  .all-content .social{
+
+width: 25%;
+display: flex;
+
+
+
+  }
+
+  .all-content .social .face{
+
+padding-left: 10px;
+color: white;
+
+
+  }
+
+
+
+.all-content .social .insta{
+
+padding-left: 10px;
+color: white;
+
+  }
+
+  .all-content .social .twiter{
+
+    padding-left: 10px;
+    color: white;
+    
+      }
+
+      .attribution{
+
+
+background-color:    hsl(243, 87%, 12%)   ;
+border: 1px  solid  white;
+color: white;
+text-align: center;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+      }
+
+      .attribution span{
+
+color: brown;
+padding-left: 15px;
+
+      }
+
+
+      
+
+/*start responsiv header and container */
+
+
+      @media (width < 600px){
+header{
+
+
+width: 620px;
+
+}
+
+.logo .links{
+
+display: flex;
+
+margin-left: 50px;
+
+
+}
+
+
+
+
+        .hero .container{
+
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+
+    }
+
+    .hero-text{
+
+    
+      order: 2;
+
+    }
+
+    .hero-text h1{
+
+width: 350px;
+text-align: center;
+margin-left: 110px;
+
+
+    }
+
+    .hero-img{
+
+order: 1;
+
+
+    }
+    .hero-img{
+
+position: relative;
+left: 70px;
+width: 550px;
+padding-bottom: 30px;
+
+    }
+
+    .hero-text P{
+
+width: 350PX;
+text-align: center;
+margin-left: 100px;
+padding-top: 20px;
+
+    }
+
+    .tube{
+
+width: 450px;
+position: relative;
+left: 25px;
+height: 50px;
+
+    }
+
+
+
+
+    .cta-btn{
+
+width: 445px;
+height: 50px;
+position: relative;
+top: 30px;
+left: 50px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+  
+
+
+
+    
+
+
+    
+    /*  start responsive  container2*/
+    @media (max-width: 600px) {
+      
+      .hero .container{
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+  }
+
+.container2 .photo {
+
+
+
+overflow: hidden;
+
+}
+.photo img{
+
+overflow: hidden;
+
+}
+
+.container2 h1{
+
+width:500px ;
+margin-left: 80px;
+
+
+
+
+}
+
+.container2 p{
+
+text-align: center;
+margin-left: 90px;
+margin-top: 10px;
+
+}
+
+.container2 a{
+
+margin-left: 220px;
+
+
+}
+
+.box{
+
+margin-left: 85px;
+width: 80%;
+
+
+}
+  .box p{
+
+   width: 280px; 
+   margin-right: 50px;
+   text-align: start;
+
+  }
+  .box .box-img .p2{
+
+position: relative;
+bottom: 35px;
+right:70px;
+
+  }
+
+
+
+
+
+
+
+  /* start responsive form*/
+
+
+  .form{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+width: 620px;
+height: 500px;
+
+  }
+
+  .form .text-form{
+
+text-align: center;
+width: 100%;
+height: 1px;
+
+  }
+
+  .form .text-form h3{
+
+padding-right: 60px;
+font-size: 32px;
+
+
+
+  }
+
+  .form .text-form p{
+
+padding-left: 90px;
+width: 450px;
+margin-left: 30px;
+font-size: 20px;
+color: white;
+margin-top: 10px;
+
+
+  }
+
+
+
+
+          }
+
+          .form .input-form{
+
+width: 100%;
+
+
+          }
+          
+          
+          
+          
+          
+          
+        .form .input-form input{
+
+            width: 60%;
+      height: 50px;
+      position: relative;
+      left: 120px;
+      
+
+          }
+
+          .form .input-form button{
+
+width: 60%;
+height: 50px;
+position: relative;
+left: 115px;
+bottom: 15px;
+margin-bottom: 30px;
+
+          }
+
+
+
+
+
+
+
+/*start responsive footer*/
+
+
+
+          footer .all-content{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+height: 600px;
+width: 620px;
+
+          }
+
+          .all-content .logo-contact{
+
+padding-bottom: 100px;
+font-size: 25px;
+
+
+          }
+
+          .all-content .logo-contact .phone{
+
+width: 300px;
+
+          }
+
+          .all-content .logo-contact img{
+
+width: 250px;
+
+
+          }
+
+          .all-content .text4{
+
+position: relative;
+
+right: 120px;
+top: 135px;
+font-size: 25px;
+
+          }
+
+          .all-content   .text3{
+
+position: relative;
+
+right: 300px;
+top: 280px;
+font-size: 25px;
+
+          }
+
+          .social{
+
+
+            margin-left: 250px;
+margin-top: 150px;
+
+          }
+
+
+
+
+
+
+
+
+          .footer2{
+
+height: 50px;
+width: 620px;
+          }
+
+
+
